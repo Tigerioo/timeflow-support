@@ -1,0 +1,32 @@
+@import url("design-tokens.css");
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--tf-color-background); color: var(--tf-color-ink); font: 17px/1.85 "PingFang SC", "Hiragino Sans GB", sans-serif; }
+a { color: var(--tf-color-green); text-underline-offset: 5px; }
+a:focus-visible { outline: 3px solid var(--tf-color-gold); outline-offset: 5px; }
+header, main, footer { max-width: 1120px; margin: auto; padding: 28px 32px; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--tf-color-line); }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 650; letter-spacing: 2px; }
+.brand img { width: 42px; height: 42px; border-radius: 12px; }
+nav { display: flex; gap: 26px; font-size: 14px; }
+nav a { text-decoration: none; }
+.hero { padding: 90px 0 64px; max-width: 880px; }
+.eyebrow { font: 12px/1.5 "Avenir Next", sans-serif; letter-spacing: 3px; color: var(--tf-color-secondary-ink); }
+h1, h2 { font-family: "Songti SC", "Noto Serif CJK SC", serif; font-weight: 600; }
+h1 { font-size: clamp(42px, 7vw, 76px); line-height: 1.25; letter-spacing: -2px; margin: 24px 0; }
+h2 { font-size: 30px; line-height: 1.4; margin: 42px 0 16px; }
+h3 { font-size: 19px; }
+.lede { font-size: 20px; color: var(--tf-color-secondary-ink); max-width: 610px; }
+.hero-art { display: block; width: 100%; max-height: 580px; object-fit: cover; border-radius: 4px; }
+.rows { margin: 40px 0; }
+.row { border-top: 1px solid var(--tf-color-line); padding: 26px 0; display: grid; grid-template-columns: 80px 1fr 1.4fr; gap: 24px; align-items: start; }
+.row span { color: var(--tf-color-gold); font: 14px "Avenir Next", sans-serif; padding-top: 10px; }
+.row h2 { margin: 0; }
+.row p { margin: 0; color: var(--tf-color-secondary-ink); }
+.document { max-width: 800px; padding-top: 55px; padding-bottom: 70px; }
+.document h1 { font-size: clamp(34px, 6vw, 52px); letter-spacing: 0; }
+.document p, .document li { max-width: 72ch; }
+.meta { font-size: 13px; color: var(--tf-color-secondary-ink); }
+.contact { padding: 26px; margin: 36px 0; background: var(--tf-color-green-soft); border-left: 3px solid var(--tf-color-green); }
+footer { border-top: 1px solid var(--tf-color-line); color: var(--tf-color-secondary-ink); font-size: 13px; display: flex; justify-content: space-between; gap: 24px; }
+@media (max-width: 640px) { header, main, footer { padding-left: 22px; padding-right: 22px; } header { flex-wrap: wrap; } nav { gap: 22px; } .hero { padding-top: 55px; } .row { grid-template-columns: 34px 1fr; gap: 12px; } .row p { grid-column: 2; } footer { display: block; } }

@@ -1,0 +1,92 @@
+/* @generated from docs/产品重定位原型/TimeFlow独立App-v1.0/设计契约/设计变量.json; source-sha256: 202cfe44039248402c5d1d6ad1aac6a2d158316091d7000b663076ff8056ab79 */
+/* 豆角时光原型与实现共享变量。请修改设计变量.json 后重新生成，禁止手改本文件。 */
+
+:root {
+  --tf-color-background: #F6F1E6;
+  --tf-color-surface: #FEFBF4;
+  --tf-color-ink: #0E332E;
+  --tf-color-secondary-ink: #47635C;
+  --tf-color-muted-ink: #758A82;
+  --tf-color-green: #0E4F45;
+  --tf-color-green-soft: #DEF0E8;
+  --tf-color-gold: #94520E;
+  --tf-color-gold-soft: #F5E0B3;
+  --tf-color-line: #D4CCBA;
+  --tf-type-large-title: 34px;
+  --tf-type-title: 28px;
+  --tf-type-title2: 22px;
+  --tf-type-title3: 20px;
+  --tf-type-headline: 17px;
+  --tf-type-body: 17px;
+  --tf-type-callout: 16px;
+  --tf-type-subheadline: 15px;
+  --tf-type-footnote: 13px;
+  --tf-type-caption: 12px;
+  --tf-type-caption2: 11px;
+  --tf-spacing-xxs: 4px;
+  --tf-spacing-xs: 8px;
+  --tf-spacing-sm: 12px;
+  --tf-spacing-md: 16px;
+  --tf-spacing-card: 18px;
+  --tf-spacing-screen: 20px;
+  --tf-spacing-lg: 24px;
+  --tf-spacing-xl: 28px;
+  --tf-spacing-xxl: 32px;
+  --tf-radius-small: 10px;
+  --tf-radius-field: 12px;
+  --tf-radius-control: 16px;
+  --tf-radius-card: 20px;
+  --tf-radius-feature-card: 24px;
+  --tf-radius-sheet: 28px;
+  --tf-radius-pill: 999px;
+  --tf-interaction-minimum-tap-target: 44px;
+  --tf-interaction-field-row-minimum-height: 44px;
+  --tf-interaction-secondary-action-height: 48px;
+  --tf-interaction-primary-button-height: 52px;
+  --tf-interaction-floating-capture-button-size: 58px;
+  --tf-interaction-tab-bar-minimum-height: 62px;
+  --tf-interaction-maximum-photos: 9;
+  --tf-layout-reference-viewport-width: 390px;
+  --tf-layout-reference-viewport-height: 844px;
+  --tf-layout-screen-horizontal-inset: 20px;
+  --tf-layout-screen-bottom-inset: 28px;
+  --tf-layout-card-content-inset: 18px;
+  --tf-layout-editor-minimum-height: 140px;
+  --tf-layout-archive-seal-size: 128px;
+  --tf-layout-person-avatar-size: 58px;
+  --tf-paper-dot-spacing: 5px;
+  --tf-paper-dot-diameter: 0.9px;
+  --tf-paper-dot-opacity-light: 0.18;
+  --tf-paper-dot-opacity-dark: 0.11;
+  --tf-timeline-rail-width: 1px;
+  --tf-timeline-rail-opacity: 0.28;
+  --tf-timeline-rail-vertical-inset: 8px;
+  --tf-timeline-node-container: 20px;
+  --tf-timeline-normal-node: 11px;
+  --tf-timeline-milestone-node: 12px;
+  --tf-timeline-entry-gap: 13px;
+  --tf-timeline-entry-bottom-spacing: 24px;
+  --tf-timeline-year-column-width: 72px;
+  --tf-timeline-year-column-gap: 14px;
+  --tf-timeline-date-column-width: 48px;
+  --tf-timeline-rail-column-width: 28px;
+  --tf-timeline-photo-corner-radius: 4px;
+  --tf-font-rounded: ui-rounded, "PingFang SC", -apple-system, system-ui, sans-serif;
+  --tf-font-pingfang: "PingFang SC", -apple-system, system-ui, sans-serif;
+  --tf-font-songti: "Songti SC", STSong, serif, "PingFang SC", -apple-system, system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tf-color-background: #0E1312;
+    --tf-color-surface: #18201D;
+    --tf-color-ink: #E0F2EB;
+    --tf-color-secondary-ink: #ADC2BA;
+    --tf-color-muted-ink: #8A9E96;
+    --tf-color-green: #5EC7AB;
+    --tf-color-green-soft: #1C4036;
+    --tf-color-gold: #F2AD52;
+    --tf-color-gold-soft: #473317;
+    --tf-color-line: #404F4A;
+  }
+}
